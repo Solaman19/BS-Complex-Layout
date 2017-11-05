@@ -1,0 +1,38 @@
+@media (max-width: 767px) 
+            {
+
+            }
+
+@media (min-width: 768px) and (max-width:991px) {
+    .hero_feature, .hero_col_to_action {
+    background-color: #CFE2FB;
+    min-height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;}
+    
+    .ad {
+    background-color: #6FA8DC;
+    min-height: 100px;
+    margin-bottom: 20px;}
+    
+    .article_feature, .article_listing {
+    background-color: #CFE2FB;
+    min-height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+    
+    .feature_content {
+    min-height: 106px;
+    background-color: #CFE2FB;
+}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+   
+}
+    
+@media (min-width: 1200px) {
+    
+    
+}

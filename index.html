@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap (Complex Layout)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+   
+   <header>
+       <div class="container-fluid">Header
+           <div class="row">
+               <div class="col-md-2 col-sm-2 col-xs-12">
+                   <div class="brand">Brand</div>
+               </div>
+               
+               <div class="col-md-7 col-sm-7 col-xs-7">
+                   <div class="global_nav">Global Nav</div>
+               </div>
+               
+               <div class="col-md-3 col-sm-3 col-xs-5">
+                   <div class="tools">Tools</div>
+               </div>
+               
+           </div>
+       </div>
+   </header>
+   
+   <section id="hero">   
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-9 col-sm-12 col-xs-12 hero_content">Hero
+                    <div class="row">
+                      
+                       <div class="col-md-8 col-sm-12 hidden-xs">
+                           <div class="hero_feature">
+                               Hero featire
+                           </div>
+                       </div>
+                       
+                       <div class="col-md-4 col-sm-12 col-xs-12">
+                           <div class="hero_col_to_action">
+                               Hero col to action
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               
+               
+               <div class="col-md-3 visible-md-block visible-lg-block disible_padding_right">
+                   <div class="ad">Ad</div>
+               </div>
+              
+           </div>
+       </div>
+   </section>
+   
+   <section id="main_content">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-9 col-sm-12 col-xs-12 body_content">Body
+                  <div class="row">
+                      <div class="col-md-4 col-sm-8 col-xs-12">
+                          <div class="article_feature">Article Feature</div>
+                      </div>
+                      <div class="col-sm-4 col-xs-12 hidden-md hidden-lg">
+                          <div class="add">Add</div>
+                      </div>
+                      <div class="col-md-8 col-sm-12 col-xs-12 listing_content">
+                          <div class="article_listing">Article Listing</div>
+                      </div>
+                      
+                  </div>
+              </div>
+              
+                 <div class="col-md-3 col-sm-12 hidden-xs disible_padding_right">
+                  <div class="side_bar_feature">Sidebar<div class="feature_content">Sidebar Feature </div></div>
+              </div>
+          </div>
+      </div>
+       
+   </section>
+   
+   <footer>
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-12">footer</div>
+           </div>
+       </div>
+       
+   </footer>
+   
+     
+  
+   <script src="js/jquery-3.2.1.min.js"></script> 
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script> 
+</body>
+</html>
